@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "start": "pm2 start src/index.js --watch",
-    "stop": "pm2 stop all"
+    "list": "pm2 list",
+    "stop": "pm2 stop all",
+    "delete": "pm2 delete all"
   },
   "repository": {
     "type": "git",
