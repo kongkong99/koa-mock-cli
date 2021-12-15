@@ -1,6 +1,5 @@
 # koa-mock-cli
-轻量的koa-mockjs在线服务，利用pm2进行热重启，默认启动端口为9000
-
+轻量的koa-mockjs在线服务，在chrome的network中可调试，利用pm2进行热重启，默认启动端口为9000
 ## 命令
 ```bash
 npm install
